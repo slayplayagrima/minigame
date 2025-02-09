@@ -4,10 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f1f1f1;
+    background-color: #04152b;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +15,7 @@ body {
 }
 
 .game-container {
-    background-color: white;
+    background-color: rgb(167, 214, 226);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -25,7 +24,7 @@ body {
 }
 
 h1 {
-    color: #4CAF50;
+    color: #0b4f65;
     margin-bottom: 10px;
 }
 
@@ -39,8 +38,8 @@ input[type="number"] {
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #2e418a;
+    color: rgb(245, 229, 229);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -49,7 +48,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #4583a2;
 }
 
 #feedback {
@@ -63,9 +62,9 @@ button:hover {
 
 #resetButton {
     margin-top: 15px;
-    background-color: #f44336;
+    background-color: #f37c73;
 }
 
 #resetButton:hover {
-    background-color: #d32f2f;
+    background-color: #f03a3a;
 }
